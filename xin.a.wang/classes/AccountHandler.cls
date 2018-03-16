@@ -3,6 +3,7 @@ public class AccountHandler {
         Account acc = new Account(Name=accname);
         try{
             insert acc;
+			return null;
         }
         catch(exception e){
             System.debug('An exception has occurred: ' + e.getMessage());
